@@ -1,4 +1,4 @@
-#1.qiankun-base 为主应用
+###1.qiankun-base 为主应用
 #2.qiankun-vue 为子应用
 #3.主应用中micro/app.js 中配置各个子应用，entry中配置子应用的进入路径
 #注：上线以后，entry中的配置路径与activeRule配置的激活路径不能相同，否者会导致资源拉取完成，页面加载找不到从而白屏
