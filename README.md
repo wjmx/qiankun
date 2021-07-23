@@ -39,7 +39,7 @@ micro/public-path.js
     rewrite ^.*$ /qiankun_vue/index.html last;
   }
 ```
- # 依照住应用中 entry 的配置（模板中配置的是qiankun_sub） 进入子应用的配置;且下面的配置适用与同服务器以及跨域服务器(需要配置目标服务器域名及地址）
+ # 依照主应用中 entry 的配置（模板中配置的是qiankun_sub） 进入子应用的配置;且下面的配置适用与同服务器以及跨域服务器(需要配置目标服务器域名及地址）
  ```
   location /qiankun_sub {
     proxy_pass http://localhost/qiankun_vue;
